@@ -1,6 +1,14 @@
 # Data Science Project Initializer
 
-A simple bash utility to quickly create standardized data science project structures with Finnish instructions and workflows.
+A simple bash utility to quickly create standardized data science project structures and videcode analytics on the fly.
+
+## Introduction
+
+Traditional data science is all about careful exploration of the data and tailored analytics. This repo lets you take your hands off the wheel and videcode the basic analyses in minutes. It creates a relatively standardized starting point for any new data science project from which to continue either yourself or by riffing with AI.
+
+Created for Claude Code, but works with any modern AI coding IDE, such as Cursor or VSCode Copilot.
+
+The main problem for using AI with data science is the conformation to your preferred workflows. This repo sets up a standardised file structure and ways of working across your data science project. Happy coding!
 
 ## Features
 
@@ -83,7 +91,7 @@ The included `instructions.txt` provides:
 ## Requirements
 
 - Bash shell
-- Optional: Python virtual environment at `~/Coding/datascience/bin/activate`
+- Optional: Python virtual environment
 
 ## Files
 
@@ -91,3 +99,7 @@ The included `instructions.txt` provides:
 - `setup.sh`: Installation script
 - `instructions.txt`: Template workflow instructions
 - `CLAUDE.md`: Guidance for Claude Code AI assistant
+
+## Customization
+
+You can customise the instructions.txt -file to suit your needs. The file is copied to any fresh folders. For existing projects, you need to edit the instructions.txt file by hand.
